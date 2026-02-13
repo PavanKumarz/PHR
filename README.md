@@ -1,16 +1,40 @@
-# phr
+# Flutter PHR App
 
-A new Flutter project.
+This is a Personal Health Record (PHR) mobile app built using Flutter and SQLite.
 
-## Getting Started
+I built this project to learn Flutter, local database (SQLite), file handling, and basic app development.
 
-This project is a starting point for a Flutter application.
+## Features
+- Save personal health records
+- Works offline
+- Store notes, documents, and audio
+- Pick images and files from device
+- Simple UI
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- SQLite (sqflite)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Packages Used
+- flutter_quill
+- file_picker
+- open_filex
+- record
+- just_audio
+- audio_waveforms
+- path_provider
+- sqflite
+- pdf
+- file_selector
+- share_plus
+- image_picker
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
+lib/
+- data
+- domain
+- presentation
+
+## Disclaimer
+This project is for learning/demo purposes only.  
+Not a certified medical app.
